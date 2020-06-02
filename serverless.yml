@@ -6,6 +6,7 @@ provider:
   runtime: nodejs12.x
   region: eu-west-1
   logRetentionInDays: 14
+  memorySize: 128
   environment:
     CONSUMER_KEY: ${self:custom.CONSUMER_KEY}
     CONSUMER_SECRET: ${self:custom.CONSUMER_SECRET}
