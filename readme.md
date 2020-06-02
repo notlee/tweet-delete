@@ -1,6 +1,6 @@
 # Tweet-delete
 
-A lambda which will delete tweets older than a defined time period from twitter.
+This is a fork of [edds/tweet-delete](https://github.com/edds/tweet-delete): A lambda which will delete tweets older than a defined time period from twitter. This fork also removes likes.
 
 ## Installation
 
@@ -18,7 +18,7 @@ $ npm install
 $ npm run deploy
 ```
 
-The lambda will now run once a day and delete any new tweets which are older than the allowed time. The first run through will obviously take longer as it clears out old tweets.
+The lambda will now run once a day. It will delete any new tweets and remove any likes which are older than the allowed time. The first run through will take longer as it clears out old tweets.
 
 ## Caveat
 

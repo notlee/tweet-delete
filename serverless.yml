@@ -11,7 +11,8 @@ provider:
     ACCESS_TOKEN_KEY: ${self:custom.ACCESS_TOKEN_KEY}
     ACCESS_TOKEN_SECRET: ${self:custom.ACCESS_TOKEN_SECRET}
     USERNAME: ${self:custom.USERNAME}
-    MAX_DAYS_AGO: ${self:custom.MAX_DAYS_AGO}
+    MAX_TWEETS_DAYS_AGO: ${self:custom.MAX_TWEETS_DAYS_AGO}
+    MAX_LIKES_DAYS_AGO: ${self:custom.MAX_LIKES_DAYS_AGO}
     KEEP: ${self:custom.KEEP}
 
 functions:

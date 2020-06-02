@@ -3,5 +3,6 @@ CONSUMER_SECRET: "xxx"
 ACCESS_TOKEN_KEY: "xxx"
 ACCESS_TOKEN_SECRET: "xxx"
 USERNAME: "xxx"
-MAX_DAYS_AGO: "30" # days of tweets to keep
+MAX_LIKES_DAYS_AGO: "360" # days of likes to keep
+MAX_TWEETS_DAYS_AGO: "30" # days of tweets to keep
 KEEP: "" # comma separated ids of tweets to keep forever
